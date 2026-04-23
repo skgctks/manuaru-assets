@@ -1,0 +1,30 @@
+# Block non-image files from accidental commit
+*.md
+*.py
+*.ts
+*.tsx
+*.js
+*.jsx
+*.json
+*.yaml
+*.yml
+*.env
+*.env.*
+*.html
+*.css
+*.txt
+*.pdf
+*.docx
+*.xlsx
+
+# Allow README and LICENSE specifically
+!README.md
+!LICENSE
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
